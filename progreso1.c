@@ -25,6 +25,6 @@ int sumaDigitos(int num){
     
 
 printf("El numero es : %d\n", num);
-print("Gracias por usar el progrm :) ");
+printf("Gracias por usar el programa :) ");
 return 0;
 }

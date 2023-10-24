@@ -8,9 +8,11 @@ scanf("%d", &num);
 int sumaDigitos(int num){
         int suma =0;                    //agregamsop un while para poder descartar numeros menores de 0
     while (num > 0) {   //con al division de mod saco el numero divido a 10 con eso recorro
-        
+        suma += num % 10; // se utiliza el mod diviendo para 10 para descomponer el numero y solo quedarnos con la parte entera
+        num /= 10; 
+       
 
-        
+
     
 
 printf("El numero es : %d\n", num);

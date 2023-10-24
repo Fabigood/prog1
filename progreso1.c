@@ -10,7 +10,16 @@ int sumaDigitos(int num){
     while (num > 0) {   //con al division de mod saco el numero divido a 10 con eso recorro
         suma += num % 10; // se utiliza el mod diviendo para 10 para descomponer el numero y solo quedarnos con la parte entera
         num /= 10; 
-       
+        // podemos sacar el ultimo numero
+    }
+
+    return suma;
+}
+
+
+    while (num >= 10) {
+        num = sumaDigitos(num);
+    }
 
 
     
